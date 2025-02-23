@@ -28,7 +28,7 @@ export default function Hero() {
                     <div>
                         <form className="bg-white h-[50px] flex items-center mt-10">
                             <Autocomplete 
-                                apiKey="AIzaSyDuuMjUF2QpZBtM3J4deM-lpSCYI22FOIE"
+                                apiKey=""
                                 placeholder='Enter an address, neighborhood, city, or ZIP code'
                                 className='w-[600px] px-4 border-none outline-none'
                                 onPlaceSelected={(place) => {
